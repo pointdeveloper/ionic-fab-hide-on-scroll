@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ion Scroll Hide
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding hide-fab >
+  
+  <ion-list >
+    <ion-item *ngFor="let item of items">
+      Item no {{item}}
+    </ion-item>
+  </ion-list>
+  
+
+  <ion-fab bottom right>
+    <button ion-fab> <ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+  
+</ion-content>
